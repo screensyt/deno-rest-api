@@ -1,0 +1,15 @@
+GET http://localhost:8000/recipes
+
+###
+POST http://localhost:8000/recipes
+Content-Type: application/json
+
+{
+"title": "Some Random Title", "desc": "Pick delicious emoji", "ingredients": ["🐱‍👤", "🤳", "👏"]
+}
+
+
+
+
+
+
